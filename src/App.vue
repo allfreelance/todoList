@@ -1,30 +1,21 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <nav class="bg-green-500 text-white">
+    <div class="container mx-auto">
+      <div class="flex items-center">
+        <router-link to="/" class="inline-block px-16 py-4 transition-colors hover:bg-green-700 duration-300">Home</router-link>
+        <router-link to="todos" class="inline-block px-16 py-4 transition-colors hover:bg-green-700 duration-300">Todos</router-link>
+      </div>
+    </div>
+  </nav>
+  
   <router-view/>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body {
+  background-color: rgb(214, 214, 214);
 }
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.router-link-active {
+  @apply bg-green-700
 }
 </style>
