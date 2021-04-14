@@ -2,8 +2,8 @@
   <div class="container mx-auto">
     <h1 class="mt-8 text-2xl">Todos</h1>
     <div class="mt-3">
-      <div class="grid xl:grid-cols-12 gap-4 sm:grid-rows">
-        <div class="col-span-6 space-y-4 overflow-y-auto px-1 order-2" style="height:500px">
+      <div class="grid xl:grid-cols-12 gap-4 grid-rows">
+        <div class="col-span-6 space-y-4 overflow-y-auto order-2" style="height:500px">
           <div v-for="(todo, index) in todos" :key="index"
             class="p-8 bg-white shadow-md rounded flex items-center justify-between"
             :class="{'bg-green-500' : todo.isDone}"
