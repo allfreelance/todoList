@@ -47,6 +47,7 @@
 import { defineComponent, reactive, ref } from 'vue';
 
 export default defineComponent ({
+  name: 'Todos',
   setup() {
     const todos = reactive([]);
     const todoText = ref('');
