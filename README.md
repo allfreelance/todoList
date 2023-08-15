@@ -1,10 +1,10 @@
 # todo-list
-##### https://allfreelance.github.io/todo-list/
+##### https://peremitins.github.io/todo-list/
 
 > Todo App<br>
 > Used HTML, CSS, JS, Vue, Git.
 
-[![](https://github.com/allfreelance/todo-list/blob/main/screen.jpg)](https://allfreelance.github.io/todo-list/)
+[![](https://github.com/peremitins/todo-list/blob/main/screen.jpg)](https://peremitins.github.io/todo-list/)
 
 ## Project setup
 npm install
